@@ -35,8 +35,12 @@ button:hover {
 }
 
 button:active {
-  background-color: rgb(198, 207, 211);
+  opacity: 0.9;
 }
+/* Alternative */
+/* button:active {
+  background-color: rgb(198, 207, 211);
+} */
 
 button:focus {
   outline: 0;
