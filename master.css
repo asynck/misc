@@ -31,14 +31,39 @@ button {
 }
 
 button:hover {
-  background-color: rgb(115, 212, 245);
+  background-color: rgb(59, 173, 211);
 }
 
 button:active {
-  background-color: rgb(240, 240, 234);
+  background-color: rgb(198, 207, 211);
 }
 
 button:focus {
+  outline: 0;
+}
+
+.button {
+  border: 1px solid rgb(86, 192, 228);
+  width: 75px;
+  height: 30px;
+  padding: 5px;
+  margin: 0 10px;
+  border-radius: 4px;
+  color: #ffff;
+  font-size: 13px;
+  background-color: rgb(86, 192, 228);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(59, 173, 211);
+}
+
+.button:active {
+  background-color: rgb(198, 207, 211);
+}
+
+.button:focus {
   outline: 0;
 }
 
@@ -62,6 +87,11 @@ button:focus {
 }
 
 /* TO ADD */
+
+/* .textInput {
+  
+} */
+
 /* @media (max-width: 600px) {
     
     .buttons {
